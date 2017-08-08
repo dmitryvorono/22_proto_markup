@@ -1,0 +1,19 @@
+a {
+	text-decoration: underline;
+}
+
+.b-page__header{
+	background-color: #e6e6e6;
+}
+
+@media screen and (min-width: 768px) {
+	.b-region__head{
+		float: left;
+		margin-right: 2em;
+	}
+	.b-profile__title{
+		float: left;
+		margin-right: 2em;
+	}
+}
+
