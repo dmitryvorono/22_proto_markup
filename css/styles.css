@@ -6,14 +6,25 @@ a {
 	background-color: #e6e6e6;
 }
 
+.b-count-vendors{
+	font-size: 1.5em;
+}
+
 @media screen and (min-width: 768px) {
-	.b-region__head{
-		float: left;
-		margin-right: 2em;
-	}
 	.b-profile__title{
 		float: left;
 		margin-right: 2em;
+	}
+	.b-count-vendors{
+		margin-top: 3em;
+	}
+	.b-count-vendors__head{
+		float: left;
+		margin-right: 1em;
+	}
+	.b-count-vendors__wholesale-company{
+		float: left;
+		margin-right: 1em;
 	}
 }
 
