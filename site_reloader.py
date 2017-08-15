@@ -13,7 +13,7 @@ def load_jinja_templates(templates_folder):
                 for entry in folder_iterator if entry.is_file()}
 
 
-def render_index_page(jinja_template, output='index.html'):
+def render_index_page(jinja_template, output):
     with open(output, 'w') as file_handler:
         file_handler.write(jinja_template.render())
 
@@ -21,7 +21,8 @@ def render_index_page(jinja_template, output='index.html'):
 def make_site():
     templates_folder = 'templates'
     jinja_templates = load_jinja_templates(templates_folder)
-    render_index_page(jinja_templates['index.html'])
+    render_index_page(jinja_templates['index.html'], 'index.html')
+    render_index_page(jinja_templates['requests.html'], 'requests.html')
 
 
 if __name__ == '__main__':
