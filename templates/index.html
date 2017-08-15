@@ -125,6 +125,7 @@
 					</div>
 				</div>
 				<div class="b-requests__requests">
+					{% for i in range(5) %}
 					<div class="b-request">
 						<div class="b-row row">
 							<div class="b-request__date col-sm-3">
@@ -150,106 +151,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
-
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
-
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
-
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
-
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
+					{% endfor %}
 				</div>
 				<div class="b-requests__btn-all-requests">
 					<button class="b-button btn btn-default btn-lg">Посмотреть все заявки</button>
