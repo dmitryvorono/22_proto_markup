@@ -8,23 +8,26 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <div class="b-page container-fluid">
-        <div class="b-page__header row">
-            <div class="b-region col-sm-9">
-                <div class="b-region__head">
-                    Регион:
-                </div>
-                <div class="b-region__region">
-                    <a href="#">Новосибирск и область</a>
-                    <span class="b-region__btn-change"><a href="#">&#9660;</a></span>
-                </div>
-            </div>
-            <div class="b-profile col-sm-3">
-                <div class="b-profile__title">
-                    <a href="#">Леонид Федорович</a>
-                </div>
-                <div class="b-profile__exit">
-                    <a href="#">выход</a>
+    <div class="b-page">
+        <div class="b-page__header">
+            <div class="b-menu navbar">
+                <div class="b-menu-row container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <img src="img/hamburger-icon.png" class="b-hamburger-icon" alt="hamburger-icon" width="32" height="32">                 
+                      </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="b-menu-btns nav navbar-nav">
+                            <p class="navbar-text">Регион:</p>
+                            <li><a class="b-link" href="#">Новосибирск и область</a></li>
+                            <li><a class="b-link" href="#">&#9660;</a></li>
+                        </ul>
+                        <ul class="b-menu-btns nav navbar-nav navbar-right">
+                          <li><a class="b-link" href="#">Леонид Федорович</a></li>
+                          <li><a class="b-link" href="#">выход</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

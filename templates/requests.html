@@ -7,6 +7,18 @@
     </div>
 </div>
 <div class="b-page__line container">
-    {{ b_requests('Заявки') }}
+    {{ b_requests('Заявки', 'Показать ещё') }}
+</div>
+<div class="b-page__line container">
+    <div class="b-paginator">
+        <ul class="pagination">
+            <li><a href="#">&lt;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">&gt;</a></li>
+        </ul>
+    </div>
 </div>
 {% endblock %}

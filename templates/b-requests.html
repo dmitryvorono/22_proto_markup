@@ -1,4 +1,4 @@
-{% macro b_requests(head) -%}
+{% macro b_requests(head, btn_title) -%}
 <div class="b-requests">
     <div class="b-requests__head">
         <h1>{{ head|e }}</h1>
@@ -41,7 +41,7 @@
             <div class="b-request__originator-name">
                 Алексей
             </div>
-            <div class="b-row row">
+            <div class="b-row b-row_sm-bottom-margin row">
                 <div class="b-request__telephone-number col-sm-2">
                     <button class="b-button btn">Показать телефон</button>
                 </div>
@@ -53,7 +53,7 @@
         {% endfor %}
     </div>
     <div class="b-requests__btn-all-requests">
-        <a href="requests.html" class="b-button btn btn-default btn-lg">Посмотреть все заявки</a>
+        <a href="requests.html" class="b-button btn btn-default btn-lg">{{ btn_title|e }}</a>
     </div>
 </div>
 {%- endmacro %}
