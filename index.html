@@ -1,350 +1,350 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="utf-8"> 
-	<title>Личный кабинет</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta charset="utf-8"> 
+    <title>Личный кабинет</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<div class="b-page container-fluid">
-		<div class="b-page__header row">
-			<div class="b-region col-sm-9">
-				<div class="b-region__head">
-					Регион:
-				</div>
-				<div class="b-region__region">
-					<a href="#">Новосибирск и область</a>
-					<span class="b-region__btn-change"><a href="#">&#9660;</a></span>
-				</div>
-			</div>
-			<div class="b-profile col-sm-3">
-				<div class="b-profile__title">
-					<a href="#">Леонид Федорович</a>
-				</div>
-				<div class="b-profile__exit">
-					<a href="#">выход</a>
-				</div>
-			</div>
-		</div>
-		<div class="b-page__line container">
-			<div class="b-count-vendors">
-				<div class="b-count-vendors__head">Участники в Новосибирске:</div>
-				<div class="b-count-vendors__wholesale-company"><a href="#">105 оптовых компаний</a></div>
-				<div class="b-count-vendors__producer"><a href="#">25 производителей</a></div>
-			</div>
-		</div>
-		<div class="b-page__line container">
-			<div class="b-order">
-				<div class="b-order__head"><h1>Вам позвонят лучшие поставщики Новосибирска</h1></div>
-				<div class="b-order__form">
-					<form class="b-form form-horizontal">
-						<div class="b-form__head b-form-item form-group">
-            					<label class="b-form-item__label control-label col-sm-2">Я ищу</label>
-        				</div>
-       					<div class="b-form__form-item b-form-item form-group">
-               					<div class="b-form-item__input col-sm-offset-2 col-sm-10">
-               						<input type="checkbox" id="ferroconcrete-items"> ЖБИ
-               					</div>      
-       					</div>
-       					<div class="b-form__form-item b-form-item form-group">
-               					<div class="b-form-item__input col-sm-offset-2 col-sm-10">
-               						<input type="checkbox" id="bricks"> Кирпич/Газобетон/Брус
-               					</div>      
-       					</div>
-       					<div class="b-form__form-item b-form-item form-group">
-               					<div class="b-form-item__input col-sm-offset-2 col-sm-10">
-               						<input type="checkbox" id="beton"> Бетон/Раствор
-               					</div>      
-       					</div>
-       					<div class="b-form__form-item form-group">
-							<div class="b-region">
-								<div class="b-region__region col-sm-offset-2 col-sm-10">
-									<a href="#">Новосибирск и область</a>
-									<span class="b-region__btn-change"><a href="#">&#9660;</a></span>
-								</div>
-							</div>
-							<input type="hidden" id="region">
-       					</div>        				
-    					<div class="b-form__form-item b-form-item form-group">
-            				<label class="b-form-item__label control-label col-sm-2" for="comment">Описание *</label>
-                			<div class="b-form-item__input col-sm-10">
-                				<textarea class="form-control" rows="3" id="comment"></textarea>
-                			</div>
-               				<div class="b-form-item__tip col-sm-offset-2 col-sm-10">
-               					<small>Пример: нужно фбс 2.4 4.6 50 шт плинты 2.0 ПК 60-20-12 доставка в Новолуговое</small>
-               				</div>
-        				</div>
-        				<div class="b-form__form-item form-group">
-        					<div class="b-form-item">
-            					<label class="b-form-item__label control-label col-sm-2" for="telephone_number">Телефон *</label>
-               					<div class="b-form-item__input col-sm-4">
-               						<input type="text" class="form-control" id="telephone_number">
-               					</div>  
-        					</div>
-        					<div class="b-form-item">
-            					<label class="b-form-item__label control-label col-sm-2" for="name">Имя</label>
-               					<div class="b-form-item__input col-sm-4">
-               						<input type="text" class="form-control" id="name">
-               					</div>  
-        					</div>
-        				</div>
-        				<div class="b-form__form-item form-group">
-        					<div class="b-form__submit col-sm-offset-2 col-sm-10">
-								<button type="submit" class="btn-default btn-lg">Опубликовать заявку</button>
-        					</div>
-        				</div>
-   					</form>
-				</div>
-			</div>
-		</div>
-		<div class="b-page__line container">
-			<div class="b-requests">
-				<div class="b-requests__head">
-					<h1>Свежие заявки</h1>
-				</div>
-				<div class="b-requests__filters row">
-					<div class="b-filter b-section-request col-sm-3">
-						<div class="b-section-request__head">
-							Раздел:
-						</div>
-						<div class="b-section-request__region">
-							<a class="b-link b-link_grey" href="#">Все</a>
-							<span class="b-section-request__btn-change"><a class="b-link b-link_grey" href="#">&#9660;</a></span>
-						</div>
-					</div>
-					<div class="b-filter b-region col-sm-offset-6 col-sm-3">
-						<div class="b-region__head">
-							Регион:
-						</div>
-						<div class="b-region__region">
-							<a class="b-link b-link_grey" href="#">Новосибирск и область</a>
-							<span class="b-region__btn-change"><a class="b-link b-link_grey" href="#">&#9660;</a></span>
-						</div>
-					</div>
-				</div>
-				<div class="b-requests__requests">
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
+    <div class="b-page container-fluid">
+        <div class="b-page__header row">
+            <div class="b-region col-sm-9">
+                <div class="b-region__head">
+                    Регион:
+                </div>
+                <div class="b-region__region">
+                    <a href="#">Новосибирск и область</a>
+                    <span class="b-region__btn-change"><a href="#">&#9660;</a></span>
+                </div>
+            </div>
+            <div class="b-profile col-sm-3">
+                <div class="b-profile__title">
+                    <a href="#">Леонид Федорович</a>
+                </div>
+                <div class="b-profile__exit">
+                    <a href="#">выход</a>
+                </div>
+            </div>
+        </div>
+        <div class="b-page__line container">
+            <div class="b-count-vendors">
+                <div class="b-count-vendors__head">Участники в Новосибирске:</div>
+                <div class="b-count-vendors__wholesale-company"><a href="#">105 оптовых компаний</a></div>
+                <div class="b-count-vendors__producer"><a href="#">25 производителей</a></div>
+            </div>
+        </div>
+        <div class="b-page__line container">
+            <div class="b-order">
+                <div class="b-order__head"><h1>Вам позвонят лучшие поставщики Новосибирска</h1></div>
+                <div class="b-order__form">
+                    <form class="b-form form-horizontal">
+                        <div class="b-form__head b-form-item form-group">
+                                <label class="b-form-item__label control-label col-sm-2">Я ищу</label>
+                        </div>
+                        <div class="b-form__form-item b-form-item form-group">
+                                <div class="b-form-item__input col-sm-offset-2 col-sm-10">
+                                    <input type="checkbox" id="ferroconcrete-items"> ЖБИ
+                                </div>      
+                        </div>
+                        <div class="b-form__form-item b-form-item form-group">
+                                <div class="b-form-item__input col-sm-offset-2 col-sm-10">
+                                    <input type="checkbox" id="bricks"> Кирпич/Газобетон/Брус
+                                </div>      
+                        </div>
+                        <div class="b-form__form-item b-form-item form-group">
+                                <div class="b-form-item__input col-sm-offset-2 col-sm-10">
+                                    <input type="checkbox" id="beton"> Бетон/Раствор
+                                </div>      
+                        </div>
+                        <div class="b-form__form-item form-group">
+                            <div class="b-region">
+                                <div class="b-region__region col-sm-offset-2 col-sm-10">
+                                    <a href="#">Новосибирск и область</a>
+                                    <span class="b-region__btn-change"><a href="#">&#9660;</a></span>
+                                </div>
+                            </div>
+                            <input type="hidden" id="region">
+                        </div>                      
+                        <div class="b-form__form-item b-form-item form-group">
+                            <label class="b-form-item__label control-label col-sm-2" for="comment">Описание *</label>
+                            <div class="b-form-item__input col-sm-10">
+                                <textarea class="form-control" rows="3" id="comment"></textarea>
+                            </div>
+                            <div class="b-form-item__tip col-sm-offset-2 col-sm-10">
+                                <small>Пример: нужно фбс 2.4 4.6 50 шт плинты 2.0 ПК 60-20-12 доставка в Новолуговое</small>
+                            </div>
+                        </div>
+                        <div class="b-form__form-item form-group">
+                            <div class="b-form-item">
+                                <label class="b-form-item__label control-label col-sm-2" for="telephone_number">Телефон *</label>
+                                <div class="b-form-item__input col-sm-4">
+                                    <input type="text" class="form-control" id="telephone_number">
+                                </div>  
+                            </div>
+                            <div class="b-form-item">
+                                <label class="b-form-item__label control-label col-sm-2" for="name">Имя</label>
+                                <div class="b-form-item__input col-sm-4">
+                                    <input type="text" class="form-control" id="name">
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="b-form__form-item form-group">
+                            <div class="b-form__submit col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn-default btn-lg">Опубликовать заявку</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="b-page__line container">
+            <div class="b-requests">
+    <div class="b-requests__head">
+        <h1>Свежие заявки</h1>
+    </div>
+    <div class="b-requests__filters row">
+        <div class="b-filter b-section-request col-sm-3">
+            <div class="b-section-request__head">
+                Раздел:
+            </div>
+            <div class="b-section-request__region">
+                <a class="b-link b-link_grey" href="#">Все</a>
+                <span class="b-section-request__btn-change"><a class="b-link b-link_grey" href="#">&#9660;</a></span>
+            </div>
+        </div>
+        <div class="b-filter b-region col-sm-offset-6 col-sm-3">
+            <div class="b-region__head">
+                Регион:
+            </div>
+            <div class="b-region__region">
+                <a class="b-link b-link_grey" href="#">Новосибирск и область</a>
+                <span class="b-region__btn-change"><a class="b-link b-link_grey" href="#">&#9660;</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="b-requests__requests">
+        <div class="b-request">
+            <div class="b-row row">
+                <div class="b-request__date col-sm-3">
+                    вчера, в 21:30
+                </div>
+                <div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
+                    &bigstar; в закладки
+                </div>
+            </div>
 
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
+            <div class="b-request__comment">
+                60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
+            </div>
+            <div class="b-request__originator-name">
+                Алексей
+            </div>
+            <div class="b-row row">
+                <div class="b-request__telephone-number col-sm-2">
+                    <button class="b-button btn">Показать телефон</button>
+                </div>
+                <div class="b-request__views-count col-sm-10">
+                    12 просмотров
+                </div>
+            </div>
+        </div>
+        <div class="b-request">
+            <div class="b-row row">
+                <div class="b-request__date col-sm-3">
+                    вчера, в 21:30
+                </div>
+                <div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
+                    &bigstar; в закладки
+                </div>
+            </div>
 
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
+            <div class="b-request__comment">
+                60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
+            </div>
+            <div class="b-request__originator-name">
+                Алексей
+            </div>
+            <div class="b-row row">
+                <div class="b-request__telephone-number col-sm-2">
+                    <button class="b-button btn">Показать телефон</button>
+                </div>
+                <div class="b-request__views-count col-sm-10">
+                    12 просмотров
+                </div>
+            </div>
+        </div>
+        <div class="b-request">
+            <div class="b-row row">
+                <div class="b-request__date col-sm-3">
+                    вчера, в 21:30
+                </div>
+                <div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
+                    &bigstar; в закладки
+                </div>
+            </div>
 
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
+            <div class="b-request__comment">
+                60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
+            </div>
+            <div class="b-request__originator-name">
+                Алексей
+            </div>
+            <div class="b-row row">
+                <div class="b-request__telephone-number col-sm-2">
+                    <button class="b-button btn">Показать телефон</button>
+                </div>
+                <div class="b-request__views-count col-sm-10">
+                    12 просмотров
+                </div>
+            </div>
+        </div>
+        <div class="b-request">
+            <div class="b-row row">
+                <div class="b-request__date col-sm-3">
+                    вчера, в 21:30
+                </div>
+                <div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
+                    &bigstar; в закладки
+                </div>
+            </div>
 
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
-					<div class="b-request">
-						<div class="b-row row">
-							<div class="b-request__date col-sm-3">
-								вчера, в 21:30
-							</div>
-							<div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
-								&bigstar; в закладки
-							</div>
-						</div>
+            <div class="b-request__comment">
+                60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
+            </div>
+            <div class="b-request__originator-name">
+                Алексей
+            </div>
+            <div class="b-row row">
+                <div class="b-request__telephone-number col-sm-2">
+                    <button class="b-button btn">Показать телефон</button>
+                </div>
+                <div class="b-request__views-count col-sm-10">
+                    12 просмотров
+                </div>
+            </div>
+        </div>
+        <div class="b-request">
+            <div class="b-row row">
+                <div class="b-request__date col-sm-3">
+                    вчера, в 21:30
+                </div>
+                <div class="b-request__add-bookmark col-sm-offset-6 col-sm-3">
+                    &bigstar; в закладки
+                </div>
+            </div>
 
-						<div class="b-request__comment">
-							60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
-						</div>
-						<div class="b-request__originator-name">
-							Алексей
-						</div>
-						<div class="b-row row">
-							<div class="b-request__telephone-number col-sm-2">
-								<button class="b-button btn">Показать телефон</button>
-							</div>
-							<div class="b-request__views-count col-sm-10">
-								12 просмотров
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="b-requests__btn-all-requests">
-					<a href="requests.html" class="b-button btn btn-default btn-lg">Посмотреть все заявки</a>
-				</div>
-			</div>
-		</div>
-		<div class="b-page__line container-fluid">
-			<div class="b-feedbacks row">
-				<div class="b-feedbacks__previous col-sm-4">
-					&#9668;
-				</div>
-				<div class="b-feedbacks__feedback col-sm-4">
-					<div class="b-feedback row">
-						<div class="b-feedback__author-image col-sm-2">
-							<img src="img/human.jpg" class="img-thumbnail" alt="Кирилл" width="75" height="75"> 
-						</div>
-						<div class="col-sm-10">
-							<div class="b-feedback__author-name">
-								Кирилл, 29 лет, г. Барабинск
-							</div>
-							<div class="b-feedback__text">
-								Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер!
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="b-feedbacks__next col-sm-1">
-					&#9658;
-				</div>
-				<div class="b-feedbacks__new-feedback col-sm-3">
-					<button class="b-button btn btn-default btn-md">Оставить отзыв</button>
-				</div>
-			</div>
-		</div>
-		<div class="b-page__footer container-fluid">
-			<div class="b-footer">
-				<div class="b-footer__head">
-					<h1>Вы поставщик?</h1>
-				</div>
-				<div class="row">
-					<div class="b-footer__text col-sm-6">
-						<p>
-							Для доступа к телефонам покупателей заполните форму или позвоните нам +7 999 888-77-66
-						</p>
-						<p>
-							Текст с дополнительной информацией по условиям сотрудничества. Возможно, стоит вынести его на отдельную страницу.<br>
-							Текст с дополнительной информацией по условиям сотрудничества. Возможно, стоит вынести его на отдельную страницу.	
-						</p>
-					</div>
-					<div class="b-footer__vendor-form col-sm-6">
-						<form class="b-form form-horizontal">
-	        				<div class="b-form__form-item form-group">
-    	    					<div class="b-form-item">
-        	    					<label class="b-form-item__label control-label col-sm-2" for="organization">Организация</label>
-            	   					<div class="b-form-item__input col-sm-10">
-               							<input type="text" class="form-control" id="organization">
-               						</div>  
-        						</div>
-	        				</div>
-    	    				<div class="b-form__form-item form-group">
-        						<div class="b-form-item">
-            						<label class="b-form-item__label control-label col-sm-2" for="organization-telephone">Телефон</label>
-               						<div class="b-form-item__input col-sm-10">
-               							<input type="text" class="form-control" id="organization-telephone">
-               						</div>  
-        						</div>
-	        				</div>
-    	    				<div class="b-form__form-item form-group">
-        						<div class="b-form-item">
-            						<label class="b-form-item__label control-label col-sm-2" for="organization-email">Email</label>
-               						<div class="b-form-item__input col-sm-10">
-               							<input type="email" class="form-control" id="organization-email">
-               						</div>  
-        						</div>
-	        				</div>	
-    	    				<div class="b-form__form-item form-group">
-        						<div class="b-form-item">
-            						<label class="b-form-item__label control-label col-sm-2" for="organization">Имя</label>
-               						<div class="b-form-item__input col-sm-10">
-               							<input type="text" class="form-control" id="organization-name">
-               						</div>  
-        						</div>
-	        				</div>	
-    	    				<div class="b-form__form-item form-group">
-        						<div class="b-form__submit col-sm-offset-2 col-sm-10">
-									<button type="submit" class="btn-default btn-md">Отправить информацию</button>
-        						</div>
-        					</div>						
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <div class="b-request__comment">
+                60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой
+            </div>
+            <div class="b-request__originator-name">
+                Алексей
+            </div>
+            <div class="b-row row">
+                <div class="b-request__telephone-number col-sm-2">
+                    <button class="b-button btn">Показать телефон</button>
+                </div>
+                <div class="b-request__views-count col-sm-10">
+                    12 просмотров
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b-requests__btn-all-requests">
+        <a href="requests.html" class="b-button btn btn-default btn-lg">Посмотреть все заявки</a>
+    </div>
+</div>
+        </div>
+        <div class="b-page__line container-fluid">
+            <div class="b-feedbacks row">
+                <div class="b-feedbacks__previous col-sm-4">
+                    &#9668;
+                </div>
+                <div class="b-feedbacks__feedback col-sm-4">
+                    <div class="b-feedback row">
+                        <div class="b-feedback__author-image col-sm-2">
+                            <img src="img/human.jpg" class="img-thumbnail" alt="Кирилл" width="75" height="75"> 
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="b-feedback__author-name">
+                                Кирилл, 29 лет, г. Барабинск
+                            </div>
+                            <div class="b-feedback__text">
+                                Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер! Бла-бла, мне помогло, всё супер!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-feedbacks__next col-sm-1">
+                    &#9658;
+                </div>
+                <div class="b-feedbacks__new-feedback col-sm-3">
+                    <button class="b-button btn btn-default btn-md">Оставить отзыв</button>
+                </div>
+            </div>
+        </div>
+        <div class="b-page__footer container-fluid">
+            <div class="b-footer">
+                <div class="b-footer__head">
+                    <h1>Вы поставщик?</h1>
+                </div>
+                <div class="row">
+                    <div class="b-footer__text col-sm-6">
+                        <p>
+                            Для доступа к телефонам покупателей заполните форму или позвоните нам +7 999 888-77-66
+                        </p>
+                        <p>
+                            Текст с дополнительной информацией по условиям сотрудничества. Возможно, стоит вынести его на отдельную страницу.<br>
+                            Текст с дополнительной информацией по условиям сотрудничества. Возможно, стоит вынести его на отдельную страницу.   
+                        </p>
+                    </div>
+                    <div class="b-footer__vendor-form col-sm-6">
+                        <form class="b-form form-horizontal">
+                            <div class="b-form__form-item form-group">
+                                <div class="b-form-item">
+                                    <label class="b-form-item__label control-label col-sm-2" for="organization">Организация</label>
+                                    <div class="b-form-item__input col-sm-10">
+                                        <input type="text" class="form-control" id="organization">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="b-form__form-item form-group">
+                                <div class="b-form-item">
+                                    <label class="b-form-item__label control-label col-sm-2" for="organization-telephone">Телефон</label>
+                                    <div class="b-form-item__input col-sm-10">
+                                        <input type="text" class="form-control" id="organization-telephone">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="b-form__form-item form-group">
+                                <div class="b-form-item">
+                                    <label class="b-form-item__label control-label col-sm-2" for="organization-email">Email</label>
+                                    <div class="b-form-item__input col-sm-10">
+                                        <input type="email" class="form-control" id="organization-email">
+                                    </div>  
+                                </div>
+                            </div>  
+                            <div class="b-form__form-item form-group">
+                                <div class="b-form-item">
+                                    <label class="b-form-item__label control-label col-sm-2" for="organization">Имя</label>
+                                    <div class="b-form-item__input col-sm-10">
+                                        <input type="text" class="form-control" id="organization-name">
+                                    </div>  
+                                </div>
+                            </div>  
+                            <div class="b-form__form-item form-group">
+                                <div class="b-form__submit col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn-default btn-md">Отправить информацию</button>
+                                </div>
+                            </div>                      
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

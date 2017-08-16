@@ -1,77 +1,77 @@
 a {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .b-page__header{
-	background-color: #e6e6e6;
+    background-color: #e6e6e6;
 }
 
 .b-count-vendors{
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .b-order__form{
-	background-color: #e2e2e2;
-	border-style: solid;
+    background-color: #e2e2e2;
+    border-style: solid;
 }
 
 .b-order__head{
-	text-align: center;
+    text-align: center;
 }
 
 .b-requests__head{
-	text-align: center;
+    text-align: center;
 }
 
 .b-requests__filters{
-	color: grey;
-	padding: 1em;
+    color: grey;
+    padding: 1em;
 }
 
 .b-link_grey{
-	color: grey;
+    color: grey;
 }
 
 .b-requests__filters{
-	border-bottom-style: solid;
+    border-bottom-style: solid;
 }
 
 .b-request{
-	border-bottom-style: solid;
-	border-bottom-color: grey;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
 }
 
 .b-requests__btn-all-requests{
-	text-align: center;
+    text-align: center;
 }
 
 .b-feedbacks__previous{
-	font-size: 3em;
+    font-size: 3em;
 }
 
 .b-feedbacks__next{
-	font-size: 3em;
+    font-size: 3em;
 }
 
 .b-page__footer{
-	background-color: #e6e6e6;
+    background-color: #e6e6e6;
 }
 
 .b-feedback{
-	border-style: solid;
-	border-color: grey;
+    border-style: solid;
+    border-color: grey;
 }
 
 .b-page__footer{
-	border-style: solid;
+    border-style: solid;
 }
 
 .b-footer__head{
-	text-align: center;
+    text-align: center;
 }
 
 .b-requests__paginator{
-	text-align: center;
+    text-align: center;
 }
 
 
@@ -79,82 +79,82 @@ a {
 
 @media screen and (min-width: 768px) {
 
-	.b-region__head{
-		float: left;
-		margin-right: 1em;
-	}	
+    .b-region__head{
+        float: left;
+        margin-right: 1em;
+    }   
 
-	.b-section-request__head{
-		float: left;
-		margin-right: 1em;
-	}
-	.b-profile__title{
-		float: left;
-		margin-right: 2em;
-	}
-	.b-count-vendors{
-		margin-top: 3em;
-	}
-	.b-count-vendors__head{
-		float: left;
-		margin-right: 1em;
-	}
-	.b-count-vendors__wholesale-company{
-		float: left;
-		margin-right: 1em;
-	}
+    .b-section-request__head{
+        float: left;
+        margin-right: 1em;
+    }
+    .b-profile__title{
+        float: left;
+        margin-right: 2em;
+    }
+    .b-count-vendors{
+        margin-top: 3em;
+    }
+    .b-count-vendors__head{
+        float: left;
+        margin-right: 1em;
+    }
+    .b-count-vendors__wholesale-company{
+        float: left;
+        margin-right: 1em;
+    }
 
-	.b-order__form{
-		padding-right: 1em;
-	}
+    .b-order__form{
+        padding-right: 1em;
+    }
 
-	.b-request__add-bookmark{
-		text-align: right;
-	}
+    .b-request__add-bookmark{
+        text-align: right;
+    }
 
-	.b-request__date{
-		margin-top: 1em;
-		margin-bottom: 1em;
-	}
+    .b-request__date{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 
-	.b-request__add-bookmark{
-		margin-top: 1em;
-		margin-bottom: 1em;
-	}
+    .b-request__add-bookmark{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 
-	.b-request__comment{
-		margin-bottom: 1em;
-	}
+    .b-request__comment{
+        margin-bottom: 1em;
+    }
 
-	.b-request__originator-name{
-		margin-bottom: 1em;
-	}
+    .b-request__originator-name{
+        margin-bottom: 1em;
+    }
 
-	.b-requests__btn-all-requests{
-		margin-top: 2em;
-		margin-bottom: 8em;
-	}
+    .b-requests__btn-all-requests{
+        margin-top: 2em;
+        margin-bottom: 8em;
+    }
 
-	.b-feedbacks__previous{
-		text-align: right;
-	}
+    .b-feedbacks__previous{
+        text-align: right;
+    }
 
-	.b-feedback__author-name{
-		margin-top: 0.5em;
-	}
+    .b-feedback__author-name{
+        margin-top: 0.5em;
+    }
 
-	.b-feedback__text{
-		margin-bottom: 1em;
-	}
+    .b-feedback__text{
+        margin-bottom: 1em;
+    }
 
-	.b-feedbacks{
-		margin-bottom: 4em;
-	}
+    .b-feedbacks{
+        margin-bottom: 4em;
+    }
 
-	.b-footer__text{
-		padding-left: 16em;
-		padding-right: 2em;
-	}
+    .b-footer__text{
+        padding-left: 16em;
+        padding-right: 2em;
+    }
 
 }
 
