@@ -3,23 +3,29 @@
     <div class="b-requests__head">
         <h1>{{ head|e }}</h1>
     </div>
-    <div class="b-requests__filters row">
-        <div class="b-filter b-section-request col-sm-3">
-            <div class="b-section-request__head">
-                Раздел:
+    <div class="b-requests__filters">
+        <div class="b-filters">
+            <div class="b-row row">
+            <div class="b-filter b-section-request col-sm-3">
+                <div class="b-section-request__head">
+                    Раздел:
+                </div>
+                <div class="b-section-request__region">
+                    <a class="b-link b-link_grey" href="#">Все</a>
+                    <span class="b-section-request__btn-change"><a class="b-link b-link_grey" href="#">&#9660;</a></span>
+                </div>
             </div>
-            <div class="b-section-request__region">
-                <a class="b-link b-link_grey" href="#">Все</a>
-                <span class="b-section-request__btn-change"><a class="b-link b-link_grey" href="#">&#9660;</a></span>
+            <div class="b-filter col-sm-offset-6 col-sm-3">
+                <div class="b-region">
+                    <div class="b-region__head">
+                        Регион:
+                    </div>
+                    <div class="b-region__region">
+                        <a class="b-link b-link_grey" href="#">Новосибирск и область</a>
+                        <span class="b-region__btn-change"><a class="b-link b-link_grey" href="#">&#9660;</a></span>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="b-filter b-region col-sm-offset-6 col-sm-3">
-            <div class="b-region__head">
-                Регион:
-            </div>
-            <div class="b-region__region">
-                <a class="b-link b-link_grey" href="#">Новосибирск и область</a>
-                <span class="b-region__btn-change"><a class="b-link b-link_grey" href="#">&#9660;</a></span>
             </div>
         </div>
     </div>
