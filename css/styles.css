@@ -90,6 +90,18 @@ a {
     margin-bottom: 1em;
 }
 
+.b-section-request__head{
+    float: left;
+}
+
+.b-region__head{
+    float: left;
+}
+
+.b-feedbacks__new-feedback{
+    margin-bottom: 1em;
+}
+
 
 
 
@@ -175,13 +187,16 @@ a {
         display: none;
     }
 
-    .b-region__head{
-        float: left;
+    .b-region__head_right{
         text-align: right;
     }
 
-    .b-region__region{
+    .b-region__region_right{
         text-align: right;
+    }
+
+    .b-feedbacks__new-feedback{
+        margin-bottom: 0em;
     }
 
 }
